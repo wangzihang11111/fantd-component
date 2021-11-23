@@ -1,0 +1,38 @@
+:global {
+  .fantd-layout.fantd-layout-has-sider {
+    flex-direction: row;
+  }
+  .fantd-layout {
+    box-sizing: border-box;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    min-height: 0;
+    background: #f0f2f5;
+    .fantd-layout-header, .fantd-layout-footer {
+      flex: 0 0 auto;
+    }
+    .fantd-layout-header {
+      height: 64px;
+      padding: 0 50px;
+      color: #000000d9;
+      line-height: 64px;
+      background: #001529;
+    }
+    .fantd-layout-content {
+      flex: auto
+    }
+    .fantd-layout-footer {
+      padding: 0 50px;
+      color: #000000d9;
+      font-size: 14px;
+      background: #f0f2f5;
+    }
+    .fantd-layout-sider {
+      position: relative;
+      min-width: 0;
+      background: #001529;
+      transition: all .2s;
+    }
+  }
+} 

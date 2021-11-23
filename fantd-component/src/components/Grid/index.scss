@@ -1,0 +1,9 @@
+:global{
+  .fantd-row {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .fantd-col {
+    box-sizing: border-box;
+  }
+}

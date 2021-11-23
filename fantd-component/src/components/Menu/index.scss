@@ -1,0 +1,53 @@
+:global{
+  .fantd-menu-horizontal {
+    display: flex;
+    line-height: 46px;
+    border: 0;
+    border-bottom: 1px solid #f0f0f0;
+    box-shadow: none;
+  }
+  .fantd-menu {
+    background: lightgray;
+    box-sizing: border-box;
+    margin: 0;
+    font-variant: tabular-nums;
+    font-feature-settings: "tnum";
+    padding: 0;
+    color: #000000d9;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    outline: none;
+    box-shadow: none;
+    transition: background .3s,width .3s, height .3s;
+    .fantd-menu-item {
+      height: 40px;
+      background: #fff;
+      padding: 0 16px;
+      overflow: hidden;
+      line-height: 40px;
+      text-overflow: ellipsis;
+      cursor: pointer;
+      &:hover {
+        color: #1890ff
+      }
+    }
+    .fantd-menu-item-selected {
+      background: #bae7ff;
+      color: #1890ff
+    }
+    .fantd-menu-subMenu {
+      .fantd-menu-subMenu-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 16px;
+      }
+    }
+  }
+  .fantd-menu-hidden {
+    display: none;
+  }
+}

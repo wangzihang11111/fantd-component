@@ -1,0 +1,25 @@
+.panel {
+  margin-bottom: 10px;
+  .content, .toolbar, .speadContainer {
+    padding: 10px;
+    border: 1px solid gray;
+  }
+  .content {
+    border-bottom: none;
+  }
+  .toolbar {
+    text-align: right;
+    .icon {
+      cursor: pointer;
+      display: inline-block;
+      text-align: center;
+      margin: 0 5px;
+    }
+  }
+  .speadContainer {
+    border-top: none;
+  }
+  .hidden {
+    display: none;
+  }
+}

@@ -1,0 +1,38 @@
+:global {
+  .grid-demo{
+    .fantd-row {
+      margin: 10px 0
+    }
+    .fantd-col {
+      div {
+        border: 1px solid #fff;
+        background-color: cornflowerblue;
+        text-align: center;
+      }
+    }
+  }
+  .layout-demo {
+    header.layout-demo-header, footer.layout-demo-footer,
+    main.layout-demo-content,aside.layout-demo-sider {
+      color: #fff;
+      text-align: center;
+    }
+    header.layout-demo-header, footer.layout-demo-footer {
+      height: 50px;
+      line-height: 50px;
+      background: #7dbcea;
+    }
+    main.layout-demo-content {
+      min-height: 120px;
+      line-height: 120px;
+      background: rgba(16, 142, 233, 1);
+    }
+    aside.layout-demo-sider {
+      width: 100px;
+      background: #3ba0e9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
